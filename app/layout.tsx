@@ -12,10 +12,10 @@ export default function RootLayout({
       <div style={{border: '1px solid #000'}}>
         {children}
       </div>
+      <footer className='py-10 flex justify-center items-center'>
+          Footer del Layout siempre disponible
+      </footer>
       </body>
-    <footer className='py-10 flex justify-center items-center'>
-        Footer del Layout siempre disponible
-    </footer>
     </html>
   );
 }
