@@ -8,10 +8,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${montserrat.className} antialiased`}>
-      <h1> TITULON</h1>
-      <div style={{border: '1px solid #000'}}>
         {children}
-      </div>
       <footer className='py-10 flex justify-center items-center'>
           Footer del Layout siempre disponible
       </footer>
